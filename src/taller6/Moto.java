@@ -15,7 +15,9 @@ public class Moto extends Vehiculo {
     public Moto(double cilindrada, String tipo, String marca) {
         super(tipo, marca);
         this.cilindrada = cilindrada;
-    }
     
-    
+    }  
+    public void mostrarDetalles() {
+        System.out.println("Tipo: " + tipo+ "Marca: " + marca+ "Cilindrada");
+}
 }
