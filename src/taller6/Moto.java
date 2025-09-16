@@ -8,6 +8,14 @@ package taller6;
  *
  * @author marya
  */
-public class Moto {
+public class Moto extends Vehiculo {
+    
+    protected double cilindrada;
+
+    public Moto(double cilindrada, String tipo, String marca) {
+        super(tipo, marca);
+        this.cilindrada = cilindrada;
+    }
+    
     
 }

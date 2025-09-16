@@ -9,5 +9,6 @@ package taller6;
  * @author marya
  */
 public class Banco {
-    
+   
+    protected double saldo;
 }

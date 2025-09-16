@@ -8,6 +8,19 @@ package taller6;
  *
  * @author marya
  */
-public class Gerente {
-    
+public class Gerente extends Empleado {
+ 
+ protected String departamento;
+
+    public Gerente(String departamento, String nombre, double salario) {
+        super(nombre, salario);
+        this.departamento = departamento;
+    }
+
+ @Override
+    protected void mostrarInformacion() {
+        super.mostrarInformacion();
+        System.out.println("Gerente-Departamento: " + departamento);
+       
+    }
 }
